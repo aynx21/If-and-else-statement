@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+  char  Name[30] ;
+  string position;
+  
+  cout<<"Please enter your name: \n";
+  cin>>Name ;
+  cout<<"Please state your position: \n" ;
+  cin>>position;
+  
+  if (position == "Manager")
+  { 
+      cout<<"Permission granted \n" ;
+}
+else 
+   { cout<<"You are not authorized \n" ;
+
+   
+   }
+    return 0;
+}
